@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <section id="joke-section" class="lg:w-6/12 mx-auto h-auto bg-white shadow-xl mt-44 p-10">
+        <h2 class="lg:text-3xl m-3 text-xl">Random Jokes Generator</h2>
+
+        <div id="type" class="capitalize text-lg lg:text-xl font-semibold m-3">Category : Funny</div>
+
+        <div id="setup" class="text-lg lg:text-xl  m-3"> <span class="font-medium text-lg  lg:text-xl">Setup : </span>Hey, Dad did u get the hair cut?</div>
+
+        <div id="punchline" class="text-lg lg:text-xl  m-3"><span class="font-medium text-lg lg:text-xl">Punch line : </span>No, I got them all cut.</div>
+
+
+        <button onclick="randomJoke()" class="p-4 btn mt-3">Generate</button>
+    </section>
+
+    <script src="./js/fetch.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
